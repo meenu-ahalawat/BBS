@@ -26,7 +26,7 @@ SECRET_KEY = '2(u$87!a(-j##^#o0ufl(fudp+4!!nmu-fag1)d1))*r3za7h@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bbs-meenu.herokuapp.com']
 
 
 # Application definition
