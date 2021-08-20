@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Home TSF</title>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	
+	<link rel="stylesheet" href="{% static 'style.css' %}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fa fa-bars"></i>
+		</label>
+		<label class="logo">Basic Banking System</label>
+		<ul>
+			<li><a class="active" href="home">Home</a></li>
+			<label for="btn-1" class="show"></label>
+			<li><a style="cursor:pointer;">Customers</a>
+				<input type="checkbox" id="btn-1">
+			    <ul class="dropdown" aria-label="submenu">
+					<li><a href="sendmoney">Send Money</a></li>
+					<li><a href="customers">Customer Detail</a></li>
+				</ul>
+			</li>
+			<li><a href="trans">Transections</a></li>
+		</ul>
+	</nav>
+	
+	<section>
+		<div class="row">
+		<div class="col1">
+		<label class="heading">Our Basic Banking System</label>
+		<p class="p1">WELCOME to your digital bank!<br>
+					   Our banking system provides you platform for<br>
+					   your ACTIONS, with easy steps to be followed.<br>
+					   'Good Banking 🏛️ '</p>
+		<label class="writter"><b>~Actutators</b></label>
+	</div>
+	<div class="col2">
+		<img src="{% static 'images/bgimg1.png' %}" style="width: 600px; height: auto;"/>
+	</div>
+</div>
+	</section>
+
+</body>
+</html>
